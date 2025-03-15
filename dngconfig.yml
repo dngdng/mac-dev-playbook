@@ -26,11 +26,27 @@ dockitems_persist:
 - name: "Safari"
   path: "/Applications/Safari.app/"
   pos: 2
+- name: "Messages"
+  path: "/Applications/Messages.app/"
+  pos: 3
+- name: "FaceTime"
+  path: "/Applications/FaceTime.app/"
+  pos: 4
+- name: "Photos"
+  path: "/Applications/Photos.app/"
+  pos: 5
+- name: "System Settings"
+  path: "/Applications/System Preferences.app/"
+  pos: 6
+- name: "Notes"
+  path: "/Applications/Notes.app/"
+  pos: 7
+- name: "Warp"
+  path: "/Applications/Warp.app/"
+  pos: 8
 - name: "Visual Studio Code"
   path: "/Applications/Visual Studio Code.app/"
-# - name: "Sublime Text"
-#   path: "/Applications/Sublime Text.app/"
-#   pos: 5
+  pos: 9
 
 configure_sudoers: false
 sudoers_custom_config: ''
@@ -39,9 +55,9 @@ sudoers_custom_config: ''
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/dngdng/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Projects/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Projects/dotfiles
 dotfiles_files:
 #  - .zshrc
 #  - .gitignore
@@ -88,6 +104,10 @@ homebrew_cask_apps:
   - stats
   - mimestream
   - warp
+  - synology-drive
+  - orion
+  - zoom
+  - discord
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
@@ -96,6 +116,8 @@ mas_installed_apps:
   - { id: 1475387142, name: "Tailscale" }
   - { id: 411643860, name: "DaisyDisk" }
   - { id: 441258766, name: "Magnet" }
+  - { id: 571213070, name: "DaVinci Resolve" }
+
 #mas_email: ""
 #mas_password: ""
 
