@@ -108,7 +108,9 @@ homebrew_cask_apps:
   - orion
   - zoom
   - discord
-
+  - sonobus
+  - obs
+  - ollama
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
   - { id: 1592917505, name: "Noir for Safari" }
